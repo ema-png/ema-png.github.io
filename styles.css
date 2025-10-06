@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(255, 215, 238);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -33,7 +33,7 @@ main {
   align-items: center;
   text-align: center;
 
-  background-color: black;
+  background-color: rgb(250, 165, 213);
   color: white;
   padding: 0px 0px;
 
@@ -63,7 +63,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(250, 165, 213);
   color: white;
   position: absolute;
   bottom: 0;
