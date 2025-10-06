@@ -72,6 +72,8 @@ main {
   height: 2.5rem;
 }
 
+/* CSS for Resume Entries */
+
 .section-title {
     color : rgb(39, 81, 101);
     background-color : rgb(226, 226, 226);
@@ -89,27 +91,54 @@ main {
 .project-description {
     color : rgb(45, 105, 132);
 }
-.contact-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+/* CSS for Contact Form */
+
+#contact-form {
+    padding: 20px;
+    border-radius: 5px;
+    border-color: pink;
+    background-color: rgb(255, 217, 223);
+    border-style: solid;
 }
 
-input[type="text"] {
-    font-family:'Times New Roman', Times, serif
+label {
+    display: block;
+    margin-bottom: 8px;
 }
 
-input[type="email"] {
-    font-family:'Times New Roman', Times, serif
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+  font-family:'Times New Roman', Times, serif;
 }
 
 input[type="submit"] {
-    font-family:'Times New Roman', Times, serif
+    font-family:'Courier New', Courier, monospace
 }
 
-#Message {
-    font-family:'Times New Roman', Times, serif
-}
+/*#contact-form {
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 5px;
+    background-color: rgb(255, 217, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+}*/
+
+/* CSS for Home Page */
 
 .about{
     margin-top: 20px;
@@ -135,10 +164,14 @@ input[type="submit"] {
     font-size: large;
 }
 
+/* CSS for Blog */
+
 .blog-images {
     align-items: center;
     justify-content: space-between;
 }
+
+/* CSS for Portfolio */
 
 .project-image {
     border-style: dashed;
