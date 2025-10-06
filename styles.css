@@ -89,6 +89,11 @@ main {
 .project-description {
     color : rgb(45, 105, 132);
 }
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 input[type="text"] {
     font-family:'Times New Roman', Times, serif
@@ -133,4 +138,11 @@ input[type="submit"] {
 .blog-images {
     align-items: center;
     justify-content: space-between;
+}
+
+.project-image {
+    border-style: dashed;
+    border-width: 5px;
+    align-items: center;
+    color : rgb(45, 105, 132);
 }
