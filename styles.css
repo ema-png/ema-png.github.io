@@ -94,3 +94,23 @@ main {
 .project-description {
     color : rgb(45, 105, 132);
 }
+
+input[type="text"] {
+    letter-spacing: 1px;
+    font-family:'Times New Roman', Times, serif
+}
+
+input[type="email"] {
+    letter-spacing: 1px;
+    font-family:'Times New Roman', Times, serif
+}
+
+input[type="submit"] {
+    letter-spacing: 1px;
+    font-family:'Times New Roman', Times, serif
+}
+
+#Message {
+    letter-spacing: 1px;
+    font-family:'Times New Roman', Times, serif
+}
