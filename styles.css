@@ -86,31 +86,51 @@ main {
     color : rgb(125, 125, 125)
 }
 
-.project-names {
-    color : rgb(31, 71, 90);
-    background-color : rgb(150, 150, 150);
-}
-
 .project-description {
     color : rgb(45, 105, 132);
 }
 
 input[type="text"] {
-    letter-spacing: 1px;
     font-family:'Times New Roman', Times, serif
 }
 
 input[type="email"] {
-    letter-spacing: 1px;
     font-family:'Times New Roman', Times, serif
 }
 
 input[type="submit"] {
-    letter-spacing: 1px;
     font-family:'Times New Roman', Times, serif
 }
 
 #Message {
-    letter-spacing: 1px;
     font-family:'Times New Roman', Times, serif
+}
+
+.about{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-width: 25px;
+    border-style: solid;
+    border-color: pink;
+    background-color: rgb(255, 217, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+    margin-left: 20px;
+    font-size: large;
+}
+
+.blog-images {
+    align-items: center;
+    justify-content: space-between;
 }
